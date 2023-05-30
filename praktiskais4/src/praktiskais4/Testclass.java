@@ -13,6 +13,7 @@ public class Testclass {
 		Newclass1 cl = new Newclass1("This is my class",123);
 		System.out.print(cl.GetString());
 		cl.Printclassinfo(cl);
+		cl.addletter(cl.getClstring(), "asd");
 	}
 
 }
